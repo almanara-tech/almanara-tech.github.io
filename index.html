@@ -1,0 +1,1073 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <!-- SEO & Primary Meta Tags -->
+  <title>المنارة تكنولوجي | Al-Manara Tech - ناشر تطبيقات الأندرويد والتطبيقات الإسلامية الفاخرة</title>
+  <meta name="title" content="المنارة تكنولوجي | Al-Manara Tech - ناشر تطبيقات الأندرويد والتطبيقات الإسلامية الفاخرة">
+  <meta name="description" content="موقع ناشر التطبيقات 'المنارة تكنولوجي' (Al-Manara Tech). رواد تطوير تطبيقات أندرويد المتميزة والتطبيقات الإسلامية الراقية مثل راديو القرآن الكريم، المصحف المرتل، مواقيت الصلاة والأذكار.">
+  <meta name="keywords" content="المنارة تكنولوجي, Al-Manara Tech, تطبيقات إسلامية, راديو القرآن الكريم, مصحف أندرويد, أذكار الصباح والمساء, مواقيت الصلاة, مطور أندرويد, Google Play Developer">
+  <meta name="author" content="Al-Manara Tech">
+  <meta name="theme-color" content="#060A12">
+
+  <!-- Open Graph / Facebook / WhatsApp -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://almanara-tech.com/">
+  <meta property="og:title" content="المنارة تكنولوجي | Al-Manara Tech - تطبيقات أندرويد إسلامية فاخرة">
+  <meta property="og:description" content="نبتكر التقنية لنضيء دروب الحياة والروحانية. اكتشف أحدث تطبيقاتنا الإسلامية والتقنية على متجر Google Play.">
+  <meta property="og:image" content="assets/images/logo.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="assets/images/logo.jpg">
+  <link rel="apple-touch-icon" href="assets/images/logo.jpg">
+
+  <!-- Google Fonts & Stylesheet -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Ambient Light Orbs & Arabesque Background Canvas -->
+  <div class="ambient-glow-wrapper">
+    <div class="ambient-orb orb-1"></div>
+    <div class="ambient-orb orb-2"></div>
+    <div class="ambient-orb orb-3"></div>
+    <div class="arabesque-pattern-bg"></div>
+  </div>
+
+  <!-- FLOATING LUXURY NAVBAR -->
+  <header class="navbar-container">
+    <nav class="navbar" id="main-navbar" aria-label="Main Navigation">
+      <!-- Brand Logo -->
+      <a href="#hero" class="brand-logo" id="nav-brand">
+        <div class="logo-img-wrapper">
+          <img src="assets/images/logo.jpg" alt="Al-Manara Tech Logo" width="44" height="44">
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">المنارة تكنولوجي</span>
+          <span class="brand-sub">AL-MANARA TECH</span>
+        </div>
+      </a>
+
+      <!-- Navigation Links -->
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#hero" class="nav-link active" data-i18n="navHome">الرئيسية</a></li>
+        <li><a href="#apps" class="nav-link" data-i18n="navApps">تطبيقاتنا</a></li>
+        <li><a href="#features" class="nav-link" data-i18n="navFeatures">المميزات</a></li>
+        <li><a href="#stats" class="nav-link" data-i18n="navStats">الإحصائيات</a></li>
+        <li><a href="#reviews" class="nav-link" data-i18n="navReviews">الآراء</a></li>
+        <li><a href="#faq" class="nav-link" data-i18n="navFaq">الأسئلة الشائعة</a></li>
+        <li><a href="#contact" class="nav-link" data-i18n="navContact">تواصل معنا</a></li>
+      </ul>
+
+      <!-- Action Buttons -->
+      <div class="nav-actions">
+        <!-- Language Switch Button -->
+        <button type="button" class="lang-switch-btn" id="lang-switch-btn" title="تبديل اللغة / Switch Language">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+          </svg>
+          <span id="lang-btn-text">English</span>
+        </button>
+
+        <!-- Google Play Header CTA -->
+        <a href="#apps" class="btn btn-gold btn-sm" id="navbar-cta-btn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M3.609 1.814L13.793 12 3.61 22.186a2.38 2.38 0 0 1-.61-.715 2.35 2.35 0 0 1-.22-.999V3.528c0-.36.077-.7.22-.999.143-.298.354-.548.61-.715zm11.606 11.607l2.259 2.26-12.085 6.945 9.826-9.205zm2.259-2.842l-2.26 2.26-9.825-9.206 12.085 6.946zm1.42 1.421l3.526 2.025c.877.503.877 1.328 0 1.831l-3.526 2.025-2.26-2.94 2.26-2.941z"/>
+          </svg>
+          <span class="navbar-btn-text" data-i18n="btnGooglePlay">متجر Google Play</span>
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button type="button" class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Open Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero-section" id="hero">
+    <canvas id="particles-canvas"></canvas>
+    <div class="container">
+      <div class="hero-grid">
+        
+        <!-- Left / Hero Text Content -->
+        <div class="hero-content reveal-on-scroll">
+          <div class="hero-badge" data-i18n="heroBadge">
+            ✦ رواد صناعة التطبيقات الإسلامية والذكية على أندرويد
+          </div>
+
+          <h1 class="hero-title" data-i18n="heroTitle">
+            نبتكر التقنية.. <span class="text-gold-gradient">لنضيء دروب الحياة</span> والروحانية
+          </h1>
+
+          <p class="hero-description" data-i18n="heroDesc">
+            مؤسسة <strong>المنارة تكنولوجي (Al-Manara Tech)</strong> تصنع تجارب برمجية استثنائية على منصة Android؛ نجمع بين أحدث معايير التقنية العالمية وأصالة المحتوى الإسلامي الفاخر بتصاميم ملكية فائقة الجودة.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#apps" class="btn btn-gold" id="hero-explore-btn">
+              <span data-i18n="btnExplore">استكشف التطبيقات</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/>
+              </svg>
+            </a>
+            
+            <a href="#contact" class="btn btn-outline" id="hero-contact-btn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+              </svg>
+              <span data-i18n="btnGooglePlayHero">حسابنا على Google Play</span>
+            </a>
+          </div>
+
+          <!-- Quick Trust Chips -->
+          <div class="hero-trust-chips">
+            <div class="trust-chip">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span data-i18n="chipUsers">+500K مستخدم نشط</span>
+            </div>
+            <div class="trust-chip">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span data-i18n="chipDesign">تصاميم Material 3 فاخرة</span>
+            </div>
+            <div class="trust-chip">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span data-i18n="chipPrivacy">أمان وخصوصية تامة</span>
+            </div>
+            <div class="trust-chip">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span data-i18n="chipAndroid">متوافق مع Android 14/15</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right / 3D Device Showcase -->
+        <div class="hero-visual reveal-on-scroll">
+          <div class="phone-mockup-wrapper">
+            <div class="phone-screen">
+              <img src="assets/images/app_quran_radio.jpg" alt="Quran Radio App Showcase">
+            </div>
+
+            <!-- Floating Badges -->
+            <div class="floating-badge badge-top-left">
+              <div class="badge-icon">★</div>
+              <div class="badge-info">
+                <h4 data-i18n="badgeRatingTitle">تقييم استثنائي</h4>
+                <p data-i18n="badgeRatingSub">4.9 ★ على Google Play</p>
+              </div>
+            </div>
+
+            <div class="floating-badge badge-bottom-right">
+              <div class="badge-icon">♫</div>
+              <div class="badge-info">
+                <h4 data-i18n="badgeAudioTitle">تلاوات نقية 4K</h4>
+                <p data-i18n="badgeAudioSub">بث صوتي مباشر مستمر</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS COUNTER SECTION -->
+  <section class="stats-section" id="stats">
+    <div class="container">
+      <div class="stats-grid">
+        
+        <div class="stat-card glass-card reveal-on-scroll">
+          <div class="stat-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"/>
+            </svg>
+          </div>
+          <span class="stat-number" data-target="500000" data-prefix="+" data-suffix="">500,000</span>
+          <span class="stat-label" data-i18n="statDownloadsLabel">إجمالي التحميلات النشطة</span>
+        </div>
+
+        <div class="stat-card glass-card reveal-on-scroll">
+          <div class="stat-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
+            </svg>
+          </div>
+          <span class="stat-number" data-target="4.9" data-prefix="" data-suffix=" ★">4.9 ★</span>
+          <span class="stat-label" data-i18n="statRatingLabel">متوسط تقييم المستخدمين</span>
+        </div>
+
+        <div class="stat-card glass-card reveal-on-scroll">
+          <div class="stat-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H8V4h12v12z"/>
+            </svg>
+          </div>
+          <span class="stat-number" data-target="12" data-prefix="+" data-suffix="">+12</span>
+          <span class="stat-label" data-i18n="statAppsLabel">تطبيق منشور ومعتمد</span>
+        </div>
+
+        <div class="stat-card glass-card reveal-on-scroll">
+          <div class="stat-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/>
+            </svg>
+          </div>
+          <span class="stat-number" data-target="99.9" data-prefix="" data-suffix="%">99.9%</span>
+          <span class="stat-label" data-i18n="statStabilityLabel">معدل استقرار وخلو من الأعطال</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- LIVE QURAN AUDIO DEMO INTERACTION BANNER -->
+  <section class="audio-preview-section">
+    <div class="container">
+      <div class="audio-player-card reveal-on-scroll">
+        
+        <div class="audio-info">
+          <div class="audio-cover">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"/>
+            </svg>
+          </div>
+          <div class="audio-details">
+            <h3 data-i18n="audioCurrentSurah">سورة الرحمن • تلاوة خاشعة</h3>
+            <p data-i18n="audioCurrentReciter">القارئ: مشاري راشد العفاسي</p>
+          </div>
+        </div>
+
+        <div class="audio-visualizer-container">
+          <div class="audio-waves">
+            <div class="wave-bar"></div>
+            <div class="wave-bar"></div>
+            <div class="wave-bar"></div>
+            <div class="wave-bar"></div>
+            <div class="wave-bar"></div>
+            <div class="wave-bar"></div>
+            <div class="wave-bar"></div>
+            <div class="wave-bar"></div>
+            <div class="wave-bar"></div>
+            <div class="wave-bar"></div>
+            <div class="wave-bar"></div>
+            <div class="wave-bar"></div>
+            <div class="wave-bar"></div>
+            <div class="wave-bar"></div>
+          </div>
+        </div>
+
+        <div class="audio-controls">
+          <button type="button" class="play-toggle-btn" id="audio-play-toggle" aria-label="Play/Pause Quran Audio">
+            <span id="play-icon">▶</span>
+          </button>
+          <a href="#apps" class="btn btn-emerald btn-sm">
+            <span data-i18n="btnExplore">استمع في التطبيق</span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- APPS SHOWCASE SECTION -->
+  <section class="section-padding" id="apps">
+    <div class="container">
+      
+      <div class="section-header reveal-on-scroll">
+        <div class="section-badge">
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <span data-i18n="appsBadge">حقيبة المنارة الرقمية</span>
+        </div>
+        <h2 class="section-title" data-i18n="appsTitle">
+          تطبيقاتنا المتميزة على <span class="text-gold-gradient">متجر أندرويد</span>
+        </h2>
+        <p class="section-desc" data-i18n="appsDesc">
+          مجموعة منتقاة بعناية من التطبيقات الإسلامية والخدمية المطورة وفق أرقى معايير الجودة والأداء.
+        </p>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="apps-filter-tabs reveal-on-scroll">
+        <button type="button" class="filter-tab active" data-filter="all" data-i18n="tabAll">جميع التطبيقات</button>
+        <button type="button" class="filter-tab" data-filter="islamic" data-i18n="tabIslamic">تطبيقات إسلامية</button>
+        <button type="button" class="filter-tab" data-filter="utility" data-i18n="tabUtility">أدوات وخدمات أندرويد</button>
+      </div>
+
+      <!-- Apps Cards Grid -->
+      <div class="apps-grid">
+
+        <!-- APP 1: Quran Radio -->
+        <div class="app-card glass-card reveal-on-scroll" data-category="islamic">
+          <div class="app-card-header">
+            <div class="app-icon">
+              <img src="assets/images/app_quran_radio.jpg" alt="Quran Radio App">
+            </div>
+            <div class="app-header-meta">
+              <span class="app-category-badge" data-i18n="app1Category">تطبيق إسلامي • صوتيات</span>
+              <h3 class="app-title" data-i18n="app1Title">راديو القرآن الكريم المباشر</h3>
+              <div class="app-rating-row">
+                <span class="stars">★★★★★</span>
+                <span class="rating-num">4.9 (120K+)</span>
+              </div>
+            </div>
+          </div>
+
+          <p class="app-description" data-i18n="app1Desc">
+            تطبيق متكامل يضم أكثر من 200 إذاعة قرآنية مباشرة لكبار القراء مع ميزة الاستماع بالخلفية وتنزيل التلاوات ومؤقت النوم الذكي.
+          </p>
+
+          <ul class="app-features-list">
+            <li class="app-feature-item">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span data-i18n="app1Feat1">بث عالي النقاوة بدون تقطيع</span>
+            </li>
+            <li class="app-feature-item">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span data-i18n="app1Feat2">مؤقت إيقاف تلقائي للنوم</span>
+            </li>
+            <li class="app-feature-item">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span data-i18n="app1Feat3">دعم العمل في الخلفية وقفل الشاشة</span>
+            </li>
+          </ul>
+
+          <div class="app-card-footer">
+            <button type="button" class="btn btn-gold btn-sm btn-open-detail" data-app-id="quranRadio" data-i18n="btnDetails">
+              تفاصيل التطبيق
+            </button>
+            <a href="https://play.google.com" target="_blank" rel="noopener" class="btn-icon-only" title="Google Play">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M3.609 1.814L13.793 12 3.61 22.186a2.38 2.38 0 0 1-.61-.715 2.35 2.35 0 0 1-.22-.999V3.528c0-.36.077-.7.22-.999.143-.298.354-.548.61-.715zm11.606 11.607l2.259 2.26-12.085 6.945 9.826-9.205zm2.259-2.842l-2.26 2.26-9.825-9.206 12.085 6.946zm1.42 1.421l3.526 2.025c.877.503.877 1.328 0 1.831l-3.526 2.025-2.26-2.94 2.26-2.941z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- APP 2: Holy Quran -->
+        <div class="app-card glass-card reveal-on-scroll" data-category="islamic">
+          <div class="app-card-header">
+            <div class="app-icon">
+              <img src="assets/images/logo.jpg" alt="Holy Quran App">
+            </div>
+            <div class="app-header-meta">
+              <span class="app-category-badge" data-i18n="app2Category">تطبيق إسلامي • مصحف وتفسير</span>
+              <h3 class="app-title" data-i18n="app2Title">مصحف المنارة المرتل والختمة</h3>
+              <div class="app-rating-row">
+                <span class="stars">★★★★★</span>
+                <span class="rating-num">4.9 (180K+)</span>
+              </div>
+            </div>
+          </div>
+
+          <p class="app-description" data-i18n="app2Desc">
+            مصحف إلكتروني فخم برسم المصحف الشريف العثماني، يحتوي على تفاسير معتمدة، إشارات مرجعية ذكية، وتكرار الآيات للحفظ.
+          </p>
+
+          <ul class="app-features-list">
+            <li class="app-feature-item">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span data-i18n="app2Feat1">خط عثماني فائق الوضوح</span>
+            </li>
+            <li class="app-feature-item">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span data-i18n="app2Feat2">تفاسير ميسرة وترجمات متعددة</span>
+            </li>
+            <li class="app-feature-item">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span data-i18n="app2Feat3">قراءة ليلية مريحة وتدوين ملاحظات</span>
+            </li>
+          </ul>
+
+          <div class="app-card-footer">
+            <button type="button" class="btn btn-gold btn-sm btn-open-detail" data-app-id="quranHoly" data-i18n="btnDetails">
+              تفاصيل التطبيق
+            </button>
+            <a href="https://play.google.com" target="_blank" rel="noopener" class="btn-icon-only" title="Google Play">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M3.609 1.814L13.793 12 3.61 22.186a2.38 2.38 0 0 1-.61-.715 2.35 2.35 0 0 1-.22-.999V3.528c0-.36.077-.7.22-.999.143-.298.354-.548.61-.715zm11.606 11.607l2.259 2.26-12.085 6.945 9.826-9.205zm2.259-2.842l-2.26 2.26-9.825-9.206 12.085 6.946zm1.42 1.421l3.526 2.025c.877.503.877 1.328 0 1.831l-3.526 2.025-2.26-2.94 2.26-2.941z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- APP 3: Athkar & Tasbih -->
+        <div class="app-card glass-card reveal-on-scroll" data-category="islamic">
+          <div class="app-card-header">
+            <div class="app-icon">
+              <img src="assets/images/app_athkar.jpg" alt="Athkar App">
+            </div>
+            <div class="app-header-meta">
+              <span class="app-category-badge" data-i18n="app3Category">تطبيق إسلامي • أذكار ومواقيت</span>
+              <h3 class="app-title" data-i18n="app3Title">حصن المسلم والمسبحة الذكية</h3>
+              <div class="app-rating-row">
+                <span class="stars">★★★★★</span>
+                <span class="rating-num">4.8 (95K+)</span>
+              </div>
+            </div>
+          </div>
+
+          <p class="app-description" data-i18n="app3Desc">
+            أذكار الصباح والمساء، أذكار النوم والصلاة، مسبحة إلكترونية رقمية مع اهتزاز تفاعلي وتنبيهات صوتية راقية.
+          </p>
+
+          <ul class="app-features-list">
+            <li class="app-feature-item">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span data-i18n="app3Feat1">إشعارات أذكار تلقائية ومجدولة</span>
+            </li>
+            <li class="app-feature-item">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span data-i18n="app3Feat2">مسبحة ذكية مع حفظ العداد تلقائياً</span>
+            </li>
+            <li class="app-feature-item">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span data-i18n="app3Feat3">تصميم ملكي مستوحى من الفن الإسلامي</span>
+            </li>
+          </ul>
+
+          <div class="app-card-footer">
+            <button type="button" class="btn btn-gold btn-sm btn-open-detail" data-app-id="athkar" data-i18n="btnDetails">
+              تفاصيل التطبيق
+            </button>
+            <a href="https://play.google.com" target="_blank" rel="noopener" class="btn-icon-only" title="Google Play">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M3.609 1.814L13.793 12 3.61 22.186a2.38 2.38 0 0 1-.61-.715 2.35 2.35 0 0 1-.22-.999V3.528c0-.36.077-.7.22-.999.143-.298.354-.548.61-.715zm11.606 11.607l2.259 2.26-12.085 6.945 9.826-9.205zm2.259-2.842l-2.26 2.26-9.825-9.206 12.085 6.946zm1.42 1.421l3.526 2.025c.877.503.877 1.328 0 1.831l-3.526 2.025-2.26-2.94 2.26-2.941z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- APP 4: Prayer Times & Qibla -->
+        <div class="app-card glass-card reveal-on-scroll" data-category="islamic">
+          <div class="app-card-header">
+            <div class="app-icon">
+              <img src="assets/images/app_athkar.jpg" alt="Prayer Times App">
+            </div>
+            <div class="app-header-meta">
+              <span class="app-category-badge" data-i18n="app4Category">تطبيق إسلامي • فلكي</span>
+              <h3 class="app-title" data-i18n="app4Title">مواقيت الصلاة والقبلة الدقيقة</h3>
+              <div class="app-rating-row">
+                <span class="stars">★★★★★</span>
+                <span class="rating-num">4.9 (110K+)</span>
+              </div>
+            </div>
+          </div>
+
+          <p class="app-description" data-i18n="app4Desc">
+            حساب دقيق لمواقيت الصلاة حسب موقعك الجغرافي وبوصلة ثلاثية الأبعاد لتحديد اتجاه القبلة وأصوات أذان متعددة.
+          </p>
+
+          <ul class="app-features-list">
+            <li class="app-feature-item">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span data-i18n="app4Feat1">حساب فلكي دقيق لجميع الدول</span>
+            </li>
+            <li class="app-feature-item">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span data-i18n="app4Feat2">بوصلة القبلة بالواقع المعزز 3D</span>
+            </li>
+            <li class="app-feature-item">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span data-i18n="app4Feat3">تنبيهات قبل الأذان والإقامة</span>
+            </li>
+          </ul>
+
+          <div class="app-card-footer">
+            <button type="button" class="btn btn-gold btn-sm btn-open-detail" data-app-id="prayerTimes" data-i18n="btnDetails">
+              تفاصيل التطبيق
+            </button>
+            <a href="https://play.google.com" target="_blank" rel="noopener" class="btn-icon-only" title="Google Play">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M3.609 1.814L13.793 12 3.61 22.186a2.38 2.38 0 0 1-.61-.715 2.35 2.35 0 0 1-.22-.999V3.528c0-.36.077-.7.22-.999.143-.298.354-.548.61-.715zm11.606 11.607l2.259 2.26-12.085 6.945 9.826-9.205zm2.259-2.842l-2.26 2.26-9.825-9.206 12.085 6.946zm1.42 1.421l3.526 2.025c.877.503.877 1.328 0 1.831l-3.526 2.025-2.26-2.94 2.26-2.941z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- APP 5: Android Optimizer -->
+        <div class="app-card glass-card reveal-on-scroll" data-category="utility">
+          <div class="app-card-header">
+            <div class="app-icon">
+              <img src="assets/images/app_utility.jpg" alt="Android Optimizer App">
+            </div>
+            <div class="app-header-meta">
+              <span class="app-category-badge" data-i18n="app5Category">أداة خدمية • تحسين أداء</span>
+              <h3 class="app-title" data-i18n="app5Title">منظف ومسرّع أندرويد الذكي</h3>
+              <div class="app-rating-row">
+                <span class="stars">★★★★★</span>
+                <span class="rating-num">4.8 (85K+)</span>
+              </div>
+            </div>
+          </div>
+
+          <p class="app-description" data-i18n="app5Desc">
+            أداة احترافية لتنظيف الملفات المؤقتة والمهملات، تسريع الذاكرة RAM، وإطالة عمر البطارية بأمان تام وبدون تعقيد.
+          </p>
+
+          <ul class="app-features-list">
+            <li class="app-feature-item">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span data-i18n="app5Feat1">تنظيف الكاش والملفات المكررة</span>
+            </li>
+            <li class="app-feature-item">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span data-i18n="app5Feat2">مدير استهلاك البطارية والحرارة</span>
+            </li>
+            <li class="app-feature-item">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span data-i18n="app5Feat3">حماية الخصوصية ومسح السجلات</span>
+            </li>
+          </ul>
+
+          <div class="app-card-footer">
+            <button type="button" class="btn btn-gold btn-sm btn-open-detail" data-app-id="optimizer" data-i18n="btnDetails">
+              تفاصيل التطبيق
+            </button>
+            <a href="https://play.google.com" target="_blank" rel="noopener" class="btn-icon-only" title="Google Play">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M3.609 1.814L13.793 12 3.61 22.186a2.38 2.38 0 0 1-.61-.715 2.35 2.35 0 0 1-.22-.999V3.528c0-.36.077-.7.22-.999.143-.298.354-.548.61-.715zm11.606 11.607l2.259 2.26-12.085 6.945 9.826-9.205zm2.259-2.842l-2.26 2.26-9.825-9.206 12.085 6.946zm1.42 1.421l3.526 2.025c.877.503.877 1.328 0 1.831l-3.526 2.025-2.26-2.94 2.26-2.941z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- APP 6: Media Downloader -->
+        <div class="app-card glass-card reveal-on-scroll" data-category="utility">
+          <div class="app-card-header">
+            <div class="app-icon">
+              <img src="assets/images/app_utility.jpg" alt="Media Downloader App">
+            </div>
+            <div class="app-header-meta">
+              <span class="app-category-badge" data-i18n="app6Category">أداة خدمية • مكتبة وسائط</span>
+              <h3 class="app-title" data-i18n="app6Title">مدير التنزيلات الصوتية الإسلامي</h3>
+              <div class="app-rating-row">
+                <span class="stars">★★★★★</span>
+                <span class="rating-num">4.8 (75K+)</span>
+              </div>
+            </div>
+          </div>
+
+          <p class="app-description" data-i18n="app6Desc">
+            أداة متقدمة لتحميل المحاضرات والخطب والتلاوات الصوتية بسرعة فائقة مع إمكانية تنظيمها في قوائم تشغيل بلا إنترنت.
+          </p>
+
+          <ul class="app-features-list">
+            <li class="app-feature-item">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span data-i18n="app6Feat1">تحميل فائق السرعة متعدد المسارات</span>
+            </li>
+            <li class="app-feature-item">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span data-i18n="app6Feat2">مشغل صوتي مدمج بدون إنترنت</span>
+            </li>
+            <li class="app-feature-item">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span data-i18n="app6Feat3">مزامنة واستيراد المقاطع الصوتية</span>
+            </li>
+          </ul>
+
+          <div class="app-card-footer">
+            <button type="button" class="btn btn-gold btn-sm btn-open-detail" data-app-id="mediaDownloader" data-i18n="btnDetails">
+              تفاصيل التطبيق
+            </button>
+            <a href="https://play.google.com" target="_blank" rel="noopener" class="btn-icon-only" title="Google Play">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M3.609 1.814L13.793 12 3.61 22.186a2.38 2.38 0 0 1-.61-.715 2.35 2.35 0 0 1-.22-.999V3.528c0-.36.077-.7.22-.999.143-.298.354-.548.61-.715zm11.606 11.607l2.259 2.26-12.085 6.945 9.826-9.205zm2.259-2.842l-2.26 2.26-9.825-9.206 12.085 6.946zm1.42 1.421l3.526 2.025c.877.503.877 1.328 0 1.831l-3.526 2.025-2.26-2.94 2.26-2.941z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY AL-MANARA TECH (FEATURES) -->
+  <section class="section-padding" id="features">
+    <div class="container">
+      
+      <div class="section-header reveal-on-scroll">
+        <div class="section-badge">
+          <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg>
+          <span data-i18n="featuresBadge">لماذا المنارة تكنولوجي؟</span>
+        </div>
+        <h2 class="section-title" data-i18n="featuresTitle">
+          معايير التفوق والريادة في <span class="text-gold-gradient">صناعة التطبيقات</span>
+        </h2>
+        <p class="section-desc" data-i18n="featuresDesc">
+          نؤمن بأن التطبيقات الإسلامية والتقنية تستحق أعلى درجات الإتقان الهندسي والجمال البصري.
+        </p>
+      </div>
+
+      <div class="features-grid">
+        
+        <div class="feature-box glass-card reveal-on-scroll">
+          <div class="feature-icon-wrapper">💎</div>
+          <h3 class="feature-title" data-i18n="feat1Title">تصاميم ملكية راقية</h3>
+          <p class="feature-text" data-i18n="feat1Desc">
+            واجهات صُممت بشغف تمزج بين جمال الزخارف الهندسية الإسلامية وعصرية واجهات Material You 3 الحديثة.
+          </p>
+        </div>
+
+        <div class="feature-box glass-card reveal-on-scroll">
+          <div class="feature-icon-wrapper">⚡</div>
+          <h3 class="feature-title" data-i18n="feat2Title">أداء Native فائق السرعة</h3>
+          <p class="feature-text" data-i18n="feat2Desc">
+            برمجة أصلية احترافية بنظامي Kotlin و Java تضمن أقصى درجات الاستجابة واستهلاكاً شبه معدوم للبطارية والذاكرة.
+          </p>
+        </div>
+
+        <div class="feature-box glass-card reveal-on-scroll">
+          <div class="feature-icon-wrapper">🛡️</div>
+          <h3 class="feature-title" data-i18n="feat3Title">خصوصية وأمان بلا تنازلات</h3>
+          <p class="feature-text" data-i18n="feat3Desc">
+            التزام صارم بحماية بيانات المستخدمين مع تطبيق أحدث معايير الأمان الدولية وسياسات Google Play و UMP.
+          </p>
+        </div>
+
+        <div class="feature-box glass-card reveal-on-scroll">
+          <div class="feature-icon-wrapper">🕊️</div>
+          <h3 class="feature-title" data-i18n="feat4Title">تجربة بدون إزعاج</h3>
+          <p class="feature-text" data-i18n="feat4Desc">
+            نحترم روحانية المستخدم ووقته؛ نقدم تجارب مستخدم مريحة مع إعلانات راقية وغير مزعجة مع خيارات استخدام مجانية.
+          </p>
+        </div>
+
+        <div class="feature-box glass-card reveal-on-scroll">
+          <div class="feature-icon-wrapper">📡</div>
+          <h3 class="feature-title" data-i18n="feat5Title">عمل أوفلاين كامل</h3>
+          <p class="feature-text" data-i18n="feat5Desc">
+            معظم تطبيقاتنا تتيح حفظ التلاوات، الأذكار، والمصاحف للعمل بكفاءة تامة بدون الحاجة للاتصال بشبكة الإنترنت.
+          </p>
+        </div>
+
+        <div class="feature-box glass-card reveal-on-scroll">
+          <div class="feature-icon-wrapper">🔄</div>
+          <h3 class="feature-title" data-i18n="feat6Title">تطوير ودعم فني متواصل</h3>
+          <p class="feature-text" data-i18n="feat6Desc">
+            فريق هندسي متخصص يواكب كافة إصدارات نظام أندرويد الجديدة ويقدم تحديثات وميزات حصرية بشكل دوري.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- INTERACTIVE GALLERY SHOWCASE -->
+  <section class="section-padding" id="gallery">
+    <div class="container">
+      
+      <div class="section-header reveal-on-scroll">
+        <div class="section-badge">
+          <svg viewBox="0 0 24 24"><path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/></svg>
+          <span data-i18n="galleryBadge">المعرض التفاعلي</span>
+        </div>
+        <h2 class="section-title" data-i18n="galleryTitle">
+          واجهات تجمع بين <span class="text-gold-gradient">الفخامة والسهولة</span>
+        </h2>
+        <p class="section-desc" data-i18n="galleryDesc">
+          إليك نظرة حصرية على الواجهات الذهبية والزمردية التي نسعد بتقديمها لمستخدمينا حول العالم.
+        </p>
+      </div>
+
+      <div class="gallery-grid">
+        
+        <div class="gallery-item reveal-on-scroll">
+          <img src="assets/images/app_quran_radio.jpg" alt="Quran Radio Screen Mockup">
+          <div class="gallery-caption">
+            <h4 data-i18n="gal1Title">راديو القرآن الكريم المباشر</h4>
+            <p data-i18n="gal1Sub">واجهة الاستماع والتلاوة التفاعلية</p>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal-on-scroll">
+          <img src="assets/images/app_athkar.jpg" alt="Athkar Screen Mockup">
+          <div class="gallery-caption">
+            <h4 data-i18n="gal2Title">أذكار ومواقيت الصلاة</h4>
+            <p data-i18n="gal2Sub">بوصلة القبلة والمسبحة الذهبية</p>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal-on-scroll">
+          <img src="assets/images/app_utility.jpg" alt="Utility Screen Mockup">
+          <div class="gallery-caption">
+            <h4 data-i18n="gal3Title">الأدوات والخدمات الذكية</h4>
+            <p data-i18n="gal3Sub">إدارة التنزيلات وتحسين الأداء</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- USER TESTIMONIALS SECTION -->
+  <section class="section-padding" id="reviews">
+    <div class="container">
+      
+      <div class="section-header reveal-on-scroll">
+        <div class="section-badge">
+          <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+          <span data-i18n="reviewsBadge">ثقة المستخدمين</span>
+        </div>
+        <h2 class="section-title" data-i18n="reviewsTitle">
+          ماذا يقول مستخدمونا على <span class="text-gold-gradient">Google Play</span>
+        </h2>
+        <p class="section-desc" data-i18n="reviewsDesc">
+          آراء موثقة من آلاف المستخدمين الذين جعلوا تطبيقات المنارة جزءاً أساسياً من يومهم.
+        </p>
+      </div>
+
+      <div class="testimonials-grid">
+        
+        <div class="testimonial-card glass-card reveal-on-scroll">
+          <div class="quote-icon">“</div>
+          <p class="testimonial-text" data-i18n="rev1Text">
+            تطبيق راديو القرآن الكريم من أجمل التطبيقات التي استخدمتها بحياتي. الصوت نقي جداً والتصميم فخم جداً والألوان مريحة للعين. جزاكم الله خير الجزاء.
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">أ</div>
+            <div class="author-info">
+              <h4 data-i18n="rev1Author">م. أحمد عبد الرحمن</h4>
+              <p data-i18n="rev1Role">مستخدم معتمد • السعودية</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card glass-card reveal-on-scroll">
+          <div class="quote-icon">“</div>
+          <p class="testimonial-text" data-i18n="rev2Text">
+            أفضل تطبيق أذكار ومواقيت صلاة! البوصلة دقيقة جداً والمسبحة الذكية ساعدتني على المحافظة على وردي اليومي دون انقطاع. بارك الله في جهودكم.
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">إ</div>
+            <div class="author-info">
+              <h4 data-i18n="rev2Author">د. إبراهيم المنصوري</h4>
+              <p data-i18n="rev2Role">مستخدم معتمد • الإمارات</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card glass-card reveal-on-scroll">
+          <div class="quote-icon">“</div>
+          <p class="testimonial-text" data-i18n="rev3Text">
+            سلاسة التطبيقات وخفتها على الهاتف مذهلة. لا استهلاك للبطارية، والتحديثات مستمرة. المنارة تكنولوجي أثبتت جدارتها واحترافيتها.
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">خ</div>
+            <div class="author-info">
+              <h4 data-i18n="rev3Author">خالد بن صالح</h4>
+              <p data-i18n="rev3Role">مستخدم معتمد • مصر</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FAQ SECTION -->
+  <section class="section-padding" id="faq">
+    <div class="container">
+      
+      <div class="section-header reveal-on-scroll">
+        <div class="section-badge">
+          <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 16h-2v-2h2v2zm1.07-7.75l-.9.92C12.45 11.9 12 12.5 12 14h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H7c0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.04-.42 1.99-1.07 2.75z"/></svg>
+          <span data-i18n="faqBadge">الأسئلة الشائعة</span>
+        </div>
+        <h2 class="section-title" data-i18n="faqTitle">
+          كل ما تود معرفته عن <span class="text-gold-gradient">تطبيقاتنا</span>
+        </h2>
+        <p class="section-desc" data-i18n="faqDesc">
+          إجابات واضحة ومباشرة عن كافة استفسارات التثبيت، الأمان، والتوافق.
+        </p>
+      </div>
+
+      <div class="faq-container">
+        
+        <div class="faq-item reveal-on-scroll">
+          <button type="button" class="faq-question">
+            <span data-i18n="faq1Q">هل جميع تطبيقات المنارة تكنولوجي مجانية على متجر Google Play؟</span>
+            <span class="faq-icon">▼</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner" data-i18n="faq1A">
+              نعم، كافة تطبيقاتنا متاحة للتحميل المجاني على متجر Google Play، مع توفير كافة الميزات الأساسية مجاناً لخدمة جميع المسلمين والمستخدمين حول العالم.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item reveal-on-scroll">
+          <button type="button" class="faq-question">
+            <span data-i18n="faq2Q">هل تعمل التطبيقات بدون الحاجة إلى اتصال بالإنترنت؟</span>
+            <span class="faq-icon">▼</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner" data-i18n="faq2A">
+              بالتأكيد، يمكنك تنزيل السور القرآنية، الأذكار، والمصاحف مرة واحدة داخل التطبيق، واستخدامها في أي مكان وفي وضع عدم الاتصال بدون إنترنت.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item reveal-on-scroll">
+          <button type="button" class="faq-question">
+            <span data-i18n="faq3Q">كيف تضمنون دقة مواقيت الصلاة واتجاه القبلة؟</span>
+            <span class="faq-icon">▼</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner" data-i18n="faq3A">
+              نعتمد على أدق المعادلات الفلكية المعتمدة رسمياً من كبرى الهيئات الإسلامية العالمية (مثل أم القرى، الهيئة المصرية العامة للمساحة، رابطة العالم الإسلامي، وغيرها) مع دعم مستشعرات الجيروسكوب والمغناطيسية لتحديد القبلة بدقة 100%.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item reveal-on-scroll">
+          <button type="button" class="faq-question">
+            <span data-i18n="faq4Q">هل تتوافق التطبيقات مع أحدث إصدارات نظام أندرويد؟</span>
+            <span class="faq-icon">▼</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner" data-i18n="faq4A">
+              نعم، نحرص على تحديث تطبيقاتنا دورياً للتوافق الكامل مع Android 14 و Android 15، مع دعم ميزات Material You والسمات الديناميكية وAndroid Auto.
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT & SUPPORT SECTION -->
+  <section class="section-padding" id="contact">
+    <div class="container">
+      
+      <div class="glass-card contact-wrapper reveal-on-scroll">
+        
+        <!-- Left info -->
+        <div class="contact-info-col">
+          <div class="section-badge">
+            <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+            <span data-i18n="contactBadge">تواصل مع المطور</span>
+          </div>
+
+          <h3 data-i18n="contactInfoHead">معلومات التواصل</h3>
+          <p data-i18n="contactDesc">
+            هل لديك فكرة لتطبيق إسلامي جديد، أو اقتراح لتحسين تجربة مستخدم، أو استفسار تقني؟ نحن هنا للاستماع إليك.
+          </p>
+
+          <div class="contact-details-list">
+            <div class="contact-item">
+              <div class="contact-item-icon">✉</div>
+              <div class="contact-item-text">
+                <h5 data-i18n="contactEmail">البريد الإلكتروني للدعم</h5>
+                <span data-i18n="contactEmailVal">support@almanara-tech.com</span>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-item-icon">★</div>
+              <div class="contact-item-text">
+                <h5 data-i18n="contactStore">حساب المطور الرسمي</h5>
+                <span data-i18n="contactStoreVal">Al-Manara Tech on Google Play</span>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-item-icon">📍</div>
+              <div class="contact-item-text">
+                <h5 data-i18n="contactLocation">المقر والتطوير</h5>
+                <span data-i18n="contactLocationVal">الرياض، المملكة العربية السعودية / العالم الرقمي</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right form -->
+        <div class="contact-form-col">
+          <form class="contact-form" id="contact-form">
+            
+            <div class="form-group">
+              <label class="form-label" for="contact-name" data-i18n="formName">الاسم الكامل</label>
+              <input type="text" id="contact-name" class="form-control" placeholder="أدخل اسمك الكريم" required data-i18n-placeholder="formNamePlh">
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="contact-email" data-i18n="formEmail">البريد الإلكتروني</label>
+              <input type="email" id="contact-email" class="form-control" placeholder="example@domain.com" required data-i18n-placeholder="formEmailPlh">
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="contact-subject" data-i18n="formSubject">نوع الرسالة / التطبيق المعني</label>
+              <input type="text" id="contact-subject" class="form-control" placeholder="اختر الموضوع أو اسم التطبيق" required data-i18n-placeholder="formSubjectPlh">
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="contact-message" data-i18n="formMessage">نص الرسالة أو الاقتراح</label>
+              <textarea id="contact-message" class="form-control" placeholder="اكتب رسالتك أو استفسارك هنا بكل تفصيل..." required data-i18n-placeholder="formMessagePlh"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-gold" style="width: 100%; margin-top: 0.5rem;">
+              <span data-i18n="formSubmit">إرسال الرسالة الآن</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>
+            </button>
+
+          </form>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ROYAL FOOTER -->
+  <footer class="royal-footer">
+    <div class="container">
+      <div class="footer-grid">
+        
+        <div class="footer-brand">
+          <div class="brand-logo">
+            <div class="logo-img-wrapper">
+              <img src="assets/images/logo.jpg" alt="Al-Manara Tech" width="44" height="44">
+            </div>
+            <div class="brand-text">
+              <span class="brand-title">المنارة تكنولوجي</span>
+              <span class="brand-sub">AL-MANARA TECH</span>
+            </div>
+          </div>
+          <p data-i18n="footerDesc">
+            المنارة تكنولوجي (Al-Manara Tech) - رواد تطوير تطبيقات الأندرويد والحلول البرمجية الإسلامية الراقية. نجمع بين أحدث التقنيات وأصالة المحتوى لخدمة الملايين حول العالم.
+          </p>
+          <div class="social-links-row">
+            <a href="#" class="social-btn" aria-label="Twitter / X">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+            <a href="#" class="social-btn" aria-label="YouTube">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+            </a>
+            <a href="#" class="social-btn" aria-label="Telegram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 0 0-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z"/></svg>
+            </a>
+            <a href="#" class="social-btn" aria-label="GitHub">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4 data-i18n="footerCol1">روابط سريعة</h4>
+          <ul class="footer-links-list">
+            <li><a href="#hero" class="footer-link" data-i18n="navHome">الرئيسية</a></li>
+            <li><a href="#apps" class="footer-link" data-i18n="navApps">تطبيقاتنا</a></li>
+            <li><a href="#features" class="footer-link" data-i18n="navFeatures">المميزات</a></li>
+            <li><a href="#stats" class="footer-link" data-i18n="navStats">الإحصائيات</a></li>
+            <li><a href="#contact" class="footer-link" data-i18n="navContact">تواصل معنا</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 data-i18n="footerCol2">أهم التطبيقات</h4>
+          <ul class="footer-links-list">
+            <li><a href="#apps" class="footer-link" data-i18n="app1Title">راديو القرآن الكريم المباشر</a></li>
+            <li><a href="#apps" class="footer-link" data-i18n="app2Title">مصحف المنارة المرتل والختمة</a></li>
+            <li><a href="#apps" class="footer-link" data-i18n="app3Title">حصن المسلم والمسبحة الذكية</a></li>
+            <li><a href="#apps" class="footer-link" data-i18n="app4Title">مواقيت الصلاة والقبلة الدقيقة</a></li>
+            <li><a href="#apps" class="footer-link" data-i18n="app5Title">منظف ومسرّع أندرويد الذكي</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 data-i18n="footerCol3">السياسات والأمان</h4>
+          <ul class="footer-links-list">
+            <li><a href="#" class="footer-link" data-i18n="footerPrivacy">سياسة الخصوصية</a></li>
+            <li><a href="#" class="footer-link" data-i18n="footerTerms">شروط الاستخدام</a></li>
+            <li><a href="#" class="footer-link" data-i18n="footerUmp">تفضيلات الخصوصية و GDPR</a></li>
+            <li><a href="#" class="footer-link" data-i18n="footerGoogleRules">معايير مطوري Google Play</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <span data-i18n="footerRights">جميع الحقوق محفوظة © 2026 المنارة تكنولوجي (Al-Manara Tech).</span>
+        <span>صُنعت بإتقان وفخامة لخدمة الأمة الرقمية ✦ Made with Excellence</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- APP DETAIL POPUP MODAL -->
+  <div class="modal-backdrop" id="app-detail-modal" aria-hidden="true">
+    <div class="modal-card">
+      <button type="button" class="modal-close-btn" id="modal-close-btn" aria-label="Close Modal">✕</button>
+      
+      <div class="app-card-header" style="margin-bottom: 1.5rem;">
+        <div class="app-icon" style="width: 72px; height: 72px;">
+          <img id="modal-app-img" src="assets/images/logo.jpg" alt="App Icon">
+        </div>
+        <div class="app-header-meta">
+          <span class="app-category-badge" id="modal-app-category">تطبيق إسلامي • صوتيات</span>
+          <h3 class="app-title" id="modal-app-title" style="font-size: 1.45rem;">عنوان التطبيق</h3>
+          <div class="app-rating-row">
+            <span class="stars">★★★★★</span>
+            <span class="rating-num">4.9 • Google Play Verified</span>
+          </div>
+        </div>
+      </div>
+
+      <p class="app-description" id="modal-app-desc" style="font-size: 1.05rem; line-height: 1.8; margin-bottom: 1.8rem;">
+        وصف تفصيلي للتطبيق هنا...
+      </p>
+
+      <h4 style="color: var(--text-gold); margin-bottom: 0.8rem; font-size: 1.1rem;">أبرز المزايا التقنية:</h4>
+      <ul class="app-features-list" id="modal-app-features" style="margin-bottom: 2rem;">
+        <!-- Injected via JS -->
+      </ul>
+
+      <!-- App Meta Tech Specs -->
+      <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; background: rgba(5,8,17,0.8); padding: 1rem; border-radius: var(--radius-md); border: 1px solid var(--border-subtle); margin-bottom: 2rem; text-align: center;">
+        <div>
+          <span style="font-size: 0.75rem; color: var(--text-muted); display: block;">الإصدار الحالي</span>
+          <strong style="color: #FFF;" id="modal-app-version">v3.4.2</strong>
+        </div>
+        <div>
+          <span style="font-size: 0.75rem; color: var(--text-muted); display: block;">حجم التطبيق</span>
+          <strong style="color: #FFF;" id="modal-app-size">18.4 MB</strong>
+        </div>
+        <div>
+          <span style="font-size: 0.75rem; color: var(--text-muted); display: block;">التوافق</span>
+          <strong style="color: #FFF;" id="modal-app-compat">Android 8.0+</strong>
+        </div>
+      </div>
+
+      <a href="https://play.google.com" target="_blank" rel="noopener" class="btn btn-gold" style="width: 100%;">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M3.609 1.814L13.793 12 3.61 22.186a2.38 2.38 0 0 1-.61-.715 2.35 2.35 0 0 1-.22-.999V3.528c0-.36.077-.7.22-.999.143-.298.354-.548.61-.715zm11.606 11.607l2.259 2.26-12.085 6.945 9.826-9.205zm2.259-2.842l-2.26 2.26-9.825-9.206 12.085 6.946zm1.42 1.421l3.526 2.025c.877.503.877 1.328 0 1.831l-3.526 2.025-2.26-2.94 2.26-2.941z"/>
+        </svg>
+        <span data-i18n="btnDownloadPlay">تثبيت من Google Play</span>
+      </a>
+
+    </div>
+  </div>
+
+  <!-- LUXURY TOAST NOTIFICATION -->
+  <div class="toast-box" id="toast-box">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="#34D399">
+      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+    </svg>
+    <span data-i18n="toastSuccess">تم استلام رسالتك بنجاح! سيتواصل معك فريق المنارة تكنولوجي قريباً.</span>
+  </div>
+
+  <!-- JavaScript Core -->
+  <script src="js/main.js"></script>
+</body>
+</html>
